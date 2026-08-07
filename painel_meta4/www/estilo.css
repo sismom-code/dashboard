@@ -734,7 +734,7 @@ img.img-zoom {
 
 .video-besm {
   width: 100%;
-  max-width: 1200px;
+  max-width: 500px;
   height: auto;
   object-fit: contain;
 }
