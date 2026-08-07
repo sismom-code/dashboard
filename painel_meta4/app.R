@@ -585,6 +585,60 @@ ui <- page_navbar(
     )
   ),
 
+  nav_panel(
+    title = "Constelação Satelite",
+
+    div(
+      class = "pagina-infograficos",
+
+      div(
+        class = "cabecalho-pagina",
+        h2("O que estamos fazendo "),
+        h3("Constelação de Satélites Radar de Abertura Sintética SAR ")
+      ),
+
+      div(
+        class = "video-box",
+          tags$video(
+                class = "video-besm",
+            src = "videos/Construindo.mp4",
+            type = "video/mp4",
+            autoplay = NA,
+            loop = NA,
+          muted = NA,
+      playsinline = NA
+          )
+        )
+      )
+    ),
+
+  nav_panel(
+    title = "Constelação Satelite",
+
+    div(
+      class = "pagina-infograficos",
+
+      div(
+        class = "cabecalho-pagina",
+        h2("O que estamos fazendo "),
+        h3("Constelação de Satélites Radar de Abertura Sintética SAR ")
+      ),
+
+      div(
+        class = "video-box",
+          tags$video(
+                class = "video-besm",
+            src = "videos/satelites.mp4",
+            type = "video/mp4",
+            autoplay = NA,
+            loop = NA,
+          muted = NA,
+      playsinline = NA
+          )
+        )
+      )
+    ),
+
   footer = tagList(
     div(
       id = "modalZoom",

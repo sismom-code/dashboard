@@ -725,6 +725,20 @@ img.img-zoom {
   cursor: pointer;
 }
 
+.video-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-besm {
+  width: 100%;
+  max-width: 1200vh;
+  height: auto;
+  object-fit: contain;
+}
+
 
 /* ===================================================================================================================
    12.9. RESPONSIVIDADE 
