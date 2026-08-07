@@ -1,0 +1,45 @@
+
+#!/bin/bash
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071000E.icn.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071000E.icn.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071000E.inz.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071000E.inz.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071006E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071006E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071012E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071012E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071018E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071018E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071000E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071000E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071006E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071006E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071012E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071012E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071018E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071018E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071000E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071000E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071006E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071006E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071012E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071012E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071018E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071018E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071100E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071100E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071106E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071106E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071112E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071112E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071118E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071118E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071200E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071200E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071206E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071206E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071212E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071212E.fct.TQ0062L042.ctl	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071218E.fct.TQ0062L042	 
+wget -r -np -nd https://ftp.cptec.inpe.br/pesquisa/SisMOM/sismom_forecast/2026071000/global/atmos/GPOSETA20260710002026071218E.fct.TQ0062L042.ctl 
+
