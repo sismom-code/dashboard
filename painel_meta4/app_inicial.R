@@ -24,14 +24,15 @@ ui <- page_navbar(
       ),
 
       tags$script(HTML("
-        $(document).on('click', '.img-zoom', function(event) {
+        $(document).on('click', 'img.img-zoom', function(event) {
+          event.preventDefault();
           event.stopPropagation();
 
           const figura = $(this).closest('figure');
-          const titulo = figura.find('figcaption').text();
+          const titulo = figura.find('figcaption').first().text().trim();
 
           $('#imgZoom').attr('src', $(this).attr('src'));
-          $('#tituloZoom').text(titulo);
+          $('#tituloZoom').text(titulo || $(this).attr('alt') || '');
           $('#modalZoom').css('display', 'flex');
         });
 
@@ -495,6 +496,8 @@ nav_panel(
       )
     )
   ),
+
+  
 div(
     id = "modalZoom",
     class = "modal-zoom",
@@ -514,7 +517,32 @@ div(
         id = "imgZoom",
         class = "conteudo-zoom"
     )
-))
+)
+
+  footer = tagList(
+    div(
+      id = "modalZoom",
+      class = "modal-zoom",
+
+      tags$button(
+        type = "button",
+        class = "fechar-zoom",
+        HTML("&times;")
+      ),
+
+      h2(
+        id = "tituloZoom",
+        class = "titulo-zoom"
+      ),
+
+      tags$img(
+        id = "imgZoom",
+        class = "conteudo-zoom",
+        src = ""
+      )
+    )
+  )
+)
 
 
 server <- function(input, output, session) { }
