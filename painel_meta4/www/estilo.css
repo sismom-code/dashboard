@@ -727,6 +727,7 @@ img.img-zoom {
 
 .video-box {
   width: 100%;
+  max-width: 2400px;
   display: flex;
   justify-content: center;
   align-items: center;
