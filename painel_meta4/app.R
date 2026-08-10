@@ -23,31 +23,33 @@ ui <- page_navbar(
       ),
 
       tags$script(HTML("
-        $(document).on('click', 'img.img-zoom', function(event) {
-          event.preventDefault();
-          event.stopPropagation();
+  // ABRIR ZOOM
+  $(document).on('click', 'img.img-zoom', function(event) {
+    event.preventDefault();
+    event.stopPropagation();
 
-          const figura = $(this).closest('figure');
-          const titulo = figura.find('figcaption').first().text().trim();
+    const figura = $(this).closest('figure');
+    const titulo = figura.find('figcaption').first().text().trim();
 
-          $('#imgZoom').attr('src', $(this).attr('src'));
-          $('#tituloZoom').text(titulo || $(this).attr('alt') || '');
-          $('#modalZoom').css('display', 'flex');
-        });
+    $('#imgZoom').attr('src', $(this).attr('src'));
+    $('#tituloZoom').text(titulo || $(this).attr('alt') || '');
 
-        $(document).on('click', '#modalZoom, .fechar-zoom', function() {
-          $('#modalZoom').css('display', 'none');
-        });
+    $('#modalZoom').css('display', 'flex');
+  });
 
-        $(document).on('click', '#imgZoom, #tituloZoom', function(event) {
-          event.stopPropagation();
-        });
 
-        $(document).on('keydown', function(event) {
-          if (event.key === 'Escape') {
-            $('#modalZoom').css('display', 'none');
-          }
-        });
+  // FECHAR CLICANDO EM QUALQUER LUGAR DO ZOOM
+  $(document).on('click', '#modalZoom', function() {
+    $('#modalZoom').css('display', 'none');
+  });
+
+
+  // ESC também fecha
+  $(document).on('keydown', function(event) {
+    if (event.key === 'Escape') {
+      $('#modalZoom').css('display', 'none');
+    }
+  });
       "))
     )
   ),
@@ -120,7 +122,8 @@ ui <- page_navbar(
             src = "figs/sst/asstanim.gif",
             alt = "Anomalia da temperatura da superfície do mar"
           )
-        )
+        ),
+        br()
       ),
 
       div(
@@ -592,12 +595,6 @@ ui <- page_navbar(
       class = "pagina-infograficos",
 
       div(
-        class = "cabecalho-pagina",
-        h2("O que estamos fazendo "),
-        h3("Constelação de Satélites Radar de Abertura Sintética SAR ")
-      ),
-
-      div(
         class = "video-box",
           tags$video(
                 class = "video-besm",
@@ -617,13 +614,6 @@ ui <- page_navbar(
 
     div(
       class = "pagina-infograficos",
-
-      div(
-        class = "cabecalho-pagina",
-        h2("O que estamos fazendo "),
-        h3("Constelação de Satélites Radar de Abertura Sintética SAR ")
-      ),
-
       div(
         class = "video-box",
           tags$video(
@@ -643,13 +633,6 @@ ui <- page_navbar(
     div(
       id = "modalZoom",
       class = "modal-zoom",
-
-      tags$button(
-        type = "button",
-        class = "fechar-zoom",
-        HTML("&times;")
-      ),
-
       h2(
         id = "tituloZoom",
         class = "titulo-zoom"
