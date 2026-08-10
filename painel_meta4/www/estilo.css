@@ -871,7 +871,7 @@ figure.figura-sec {
 
 /* Teste polywall ====================================================================================================*/
 
-@media (min-width: 400px) and (max-width: 1200px) {
+@media (min-width: 390px) and (max-width: 1200px) {
 
   .topo {
     height: 100px;
@@ -991,5 +991,13 @@ figure.figura-sec {
   .titulo-zoom {
     font-size: calc(0.8rem + 0.3vw);
   }
+
+  .video-besm {
+  width: 100%;
+  max-width: auto;
+  height: auto;
+  object-fit: contain;
+}
+
 
 }
