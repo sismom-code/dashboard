@@ -691,7 +691,7 @@ img.img-zoom {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
+  cursor: zoom-out;
   padding: 20px;
   background: rgba(5, 20, 28, 0.94);
 }
