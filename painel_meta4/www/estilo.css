@@ -735,7 +735,7 @@ img.img-zoom {
 
 .video-besm {
   width: 100%;
-  max-width: 500px;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
@@ -866,8 +866,17 @@ figure.figura-sec {
   font-size:calc(0.8rem + .3vw);
 
 }
+.video-box {
+  width: 100%;
+  max-width: 2400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .video-besm {
-  width: 1500px;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
@@ -996,8 +1005,17 @@ figure.figura-sec {
     font-size: calc(0.8rem + 0.3vw);
   }
 
-  .video-besm {
-  width: 600vw;
+.video-box {
+  width: 100%;
+  max-width: 2400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-besm {
+  width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: contain;
 }
