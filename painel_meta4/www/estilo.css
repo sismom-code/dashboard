@@ -993,8 +993,7 @@ figure.figura-sec {
   }
 
   .video-besm {
-  width: 100%;
-  max-width: auto;
+  width: 300vw;
   height: auto;
   object-fit: contain;
 }
