@@ -866,7 +866,11 @@ figure.figura-sec {
   font-size:calc(0.8rem + .3vw);
 
 }
-
+.video-besm {
+  width: 1500px;
+  height: auto;
+  object-fit: contain;
+}
 }
 
 /* Teste polywall ====================================================================================================*/
