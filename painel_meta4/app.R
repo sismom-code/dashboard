@@ -594,185 +594,7 @@ div(
       span("JFM")
     )
   )
-),
-
-
-###### Mapas Trimestrais com botões ### 
-# div(
-#   class = "painel-previsao",
-
-#   h2(
-#     id = "tituloTri",
-#     "Previsão Trimestral BESM - JAS/2026"
-#   ),
-
-#   div(
-#     class = "mapas-mensais",
-
-#     tags$figure(
-#       class = "figura-mensal figura-tsm",
-#       tags$figcaption("Anomalia da temperatura da superfície do mar (°C)"),
-#       tags$img(
-#         id = "img_tri_tsm",
-#         class = "img-zoom-tri",
-#         `data-variavel` = "tsm",
-#         src = "figs/IC082026/IC082026_aTSM_sazonal_SON_2026.png"
-#       )
-#     ),
-
-#     tags$figure(
-#       class = "figura-mensal",
-#       tags$figcaption("Anomalia de precipitação (mm/mês)"),
-#       tags$img(
-#         id = "img_tri_prec",
-#         class = "img-zoom-tri",
-#         `data-variavel` = "prec",
-#         src = "figs/IC082026/IC082026_aprec_sazonal_SON.png"
-#       )
-#     ),
-
-#     tags$figure(
-#       class = "figura-mensal",
-#       tags$figcaption("Anomalia percentual de precipitação (%)"),
-#       tags$img(
-#         id = "img_tri_precperc",
-#         class = "img-zoom-tri",
-#         `data-variavel` = "precperc",
-#         src = "figs/IC082026/IC082026_aprec_porcentagem_sazonal_SON.png"
-#       )
-#     ),
-
-#     tags$figure(
-#       class = "figura-mensal",
-#       tags$figcaption("Anomalia da temperatura a 2 m (°C)"),
-#       tags$img(
-#         id = "img_tri_temp",
-#         class = "img-zoom-tri",
-#         `data-variavel` = "temp",
-#         src = "figs/IC082026/IC082026_aT2m_sazonal_SON_2026.png"
-#       )
-#     )
-#   ),
-
-#   div(
-#     class = "controle-animacao",
-
-#     div(
-#       class = "botoes-animacao",
-
-#       tags$button(
-#         class = "controle-btn",
-#         onclick = "mudarFrameTri(-1)",
-#         HTML("&#9664;&#9664;")
-#       ),
-
-#       tags$button(
-#         class = "controle-btn",
-#         onclick = "iniciarAnimacaoTri()",
-#         HTML("&#9654;")
-#       ),
-
-#       tags$button(
-#         class = "controle-btn",
-#         onclick = "pararAnimacaoTri()",
-#         HTML("&#10074;&#10074;")
-#       ),
-
-#       tags$button(
-#         class = "controle-btn",
-#         onclick = "mudarFrameTri(1)",
-#         HTML("&#9654;&#9654;")
-#       )
-#     ),
-
-#     div(
-#       class = "linha-slider",
-
-#       tags$input(
-#         id = "sliderTri",
-#         type = "range",
-#         min = "0",
-#         max = "5",
-#         value = "0",
-#         step = "1",
-#         oninput = "selecionarFrameTri(this.value)"
-#       )
-#     ),
-
-#     div(
-#       class = "labels-meses",
-#       span("JAS"),
-#       span("ASO"),
-#       span("SON"),
-#       span("OND"),
-#       span("NDJ"),
-#       span("DJF")
-#     )
-#   )
-# )
-
-
-
-
-    )
-  ),  
-##### Fim Pagina 1 #### 
-########################################### 
-# Pagina Resumo Metas #### 
-# Desativada 
-  # nav_panel(
-  #   title = "Resumo das Metas",
-
-  #   div(
-  #     class = "pagina-infograficos",
-
-  #     div(
-  #       class = "cabecalho-pagina",
-  #       h2("Resumo Integrado do SisMOM"),
-  #       h3("Síntese visual das componentes do programa")
-  #     ),
-
-  #     div(
-  #       class = "grade-infograficos",
-
-  #       tags$figure(
-  #         class = "card-infografico",
-  #         tags$figcaption(
-  #           "Monitoramento marítimo e detecção de embarcações - Metas 1, 2, 3 e 4"
-  #         ),
-  #         tags$img(
-  #           class = "img-zoom",
-  #           src = "figs/SisMOM_Infografico.png",
-  #           alt = "Resumo integrado das metas 1, 2, 3 e 4 do SisMOM"
-  #         )
-  #       ),
-
-  #       tags$figure(
-  #         class = "card-infografico",
-  #         tags$figcaption(
-  #           "Meta 1 - Monitoramento marítimo e detecção de embarcações"
-  #         ),
-  #         tags$img(
-  #           class = "img-zoom",
-  #           src = "figs/meta01.png",
-  #           alt = "Resumo integrado da Meta 1 do SisMOM"
-  #         )
-  #       ),
-
-  #       tags$figure(
-  #         class = "card-infografico",
-  #         tags$figcaption(
-  #           "Meta 4 - Avaliação da componente atmosférica do BESM"
-  #         ),
-  #         tags$img(
-  #           class = "img-zoom",
-  #           src = "figs/Infografico_Meta4_BESM.png",
-  #           alt = "Resumo integrado da avaliação atmosférica do BESM"
-  #         )
-  #       )
-  #     )
-  #   )
-  # ),
+))),
 
 ########## Pagina dos Videos 
 ### 
@@ -817,6 +639,48 @@ div(
         )
       )
     ),
+
+ nav_panel(
+    title = "SCD Global ",
+
+    div(
+      class = "pagina-infograficos",
+      div(
+        class = "video-box",
+          tags$video(
+                class = "video-besm",
+            src = "videos/SCDG_2D_V2.mp4",
+            type = "video/mp4",
+            autoplay = NA,
+            loop = NA,
+          muted = NA,
+      playsinline = NA
+          )
+        )
+      )
+    ),   
+
+     
+  nav_panel(
+    title = "Radio Frenquencia Cluster",
+
+    div(
+      class = "pagina-infograficos",
+      div(
+        class = "video-box",
+          tags$video(
+                class = "video-besm",
+            src = "videos/SisMOM_RF_ClusterZoom_V1.mp4",
+            type = "video/mp4",
+            autoplay = NA,
+            loop = NA,
+          muted = NA,
+      playsinline = NA
+          )
+        )
+      )
+    ),    
+    
 ########### Paginas Testes ########## 
 #   nav_panel(
 #     title = "Desenvolvimento",
