@@ -905,12 +905,26 @@ img.img-zoom {
     width : 10vw;
     height: auto;
   }
+
+
+.cards-columns{
+
+    display:flex;
+
+    gap:15px;
+
+    align-items:stretch;
+    margin-top: -10px ;
+    margin-bottom: -10px ;
+}
+
+
+
 .card-operacional {
-    min-height: 6vw;    /* O padrão atual é 70px */
+    min-height: 8vw;    /* O padrão atual é 70px */
     padding-top: 2vw;    /* O padrão atual é 10px */
     padding-bottom: 2vw; /* O padrão atual é 10px */
-    height: auto;        /* Garante que a altura se ajuste ao conteúdo */
-    border-radius:3vw;    
+    height: auto;        /* Garante que a altura se ajuste ao conteúdo */ 
     border-left:1vw solid var(--cor-azul-600);
 }
 
