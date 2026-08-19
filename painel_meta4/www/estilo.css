@@ -1,5 +1,5 @@
 :root {
-  --cor-fundo-app: #F8F4ED;
+  --cor-fundo-app: #04435e;
 
   --cor-azul-900: #0F3131;
   --cor-azul-800: #123F4A;
@@ -34,7 +34,6 @@ body {
   align-items:center;
   color:white;
   padding:20px 30px;
-  border-bottom:10px solid var(--cor-azul-400);
   background: linear-gradient(
     90deg,
     var(--cor-azul-900),
@@ -82,7 +81,7 @@ body {
 
 .topo-logo
 {
-    width:450px;
+    width:10vh;
     display:flex;
     justify-content:flex-end;
     align-items:center;
@@ -90,7 +89,7 @@ body {
 
 .topo-logo img
 {
-    height:180px;
+    height:20vh;
     width:auto;
     display:block;
 }
@@ -119,13 +118,11 @@ body {
 
     background:white;
 
-    border-radius:16px;
-
     padding:10px;
 
-    border-left:6px solid var(--cor-azul-600);
+    border-left:6px solid var(--cor-azul-400);
 
-    box-shadow:0 4px 14px rgba(15,49,49,.12);
+    box-shadow:0 4px 14px rgba(227, 235, 235, 0.12);
 
     min-height:70px;
 
@@ -146,11 +143,11 @@ body {
   color: var(--cor-azul-700);
 }
 
-
+.painel-previsao,
 .mapa-box-main,
 .mapa-box-sec{
   background: white;
-  border-radius: 16px;
+
   padding: 10px 20px 0 10px;
   box-shadow: 0 4px 14px rgba(15, 49, 49, 0.12);
   overflow: hidden;
@@ -160,6 +157,8 @@ body {
   align-items:center;
 }
 
+.painel-previsao h3,
+.mapa-box-main h3,
 .mapa-box-main h3,
 .mapa-box-sec h3 {
   color: var(--cor-azul-800);
@@ -173,7 +172,7 @@ body {
 .painel-gif
 {
   background: white;
-  border-radius: 16px;
+
   padding: 10px 20px 0 10px;
   box-shadow: 0 4px 14px rgba(15, 49, 49, 0.12);
   overflow: hidden;
@@ -185,6 +184,12 @@ body {
   width:100%;
   padding-bottom: 15px;
   margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.text-font {
+  width: 100%;
+      margin-top: -25px;
 }
 
 .fig-tsm-gif {
@@ -193,12 +198,13 @@ body {
 
     text-align:center;
 
-    max-width:750px;
+    max-width:750vw;
+
 }
 .fig-tsm-gif img
 {
 
-    width:100%;
+    width:99%;
 
     height:auto;
 
@@ -740,6 +746,129 @@ img.img-zoom {
   object-fit: contain;
 }
 
+.controle-animacao {
+    width: 55%;
+    margin: 15px auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+/* BOTÕES */
+
+.botoes-animacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 5px;
+}
+
+
+.controle-btn {
+    width: 40px;
+    height: 35px;
+
+    padding: 0;
+
+    border: none;
+    border-radius: 7px;
+
+    background: var(--cor-azul-700);
+    color: white;
+}
+
+
+/* SLIDER */
+
+.linha-slider {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+#sliderMes {
+    width: 100%;
+    margin: 0;
+}
+
+
+/* MESES */
+
+.labels-meses {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 3px;
+
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor-azul-800);
+}
+
+.mapas-mensais {
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  align-items: flex-start;
+  justify-content: center;
+
+  gap: 1.2%;
+}
+
+/* Todos os painéis */
+.figura-mensal {
+  margin: 0;
+  padding: 0;
+
+  width: 15%;
+  min-width: 0;
+
+  text-align: center;
+}
+
+/* Primeiro painel: TSM é mais largo */
+.figura-mensal.figura-tsm {
+  width: 55%;
+}
+
+/* Imagens */
+.figura-mensal img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: contain;
+}
+
+/* Títulos */
+.figura-mensal figcaption {
+  height: 32px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 4px;
+
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.1;
+
+  text-align: center;
+}
 
 /* ===================================================================================================================
    12.9. RESPONSIVIDADE 
@@ -858,7 +987,7 @@ figure.figura-sec {
 
 }
 .figura-sec figcaption{
-  font-size: calc(0.15rem + .1vw);
+  font-size: 3.15rem;
   width: 100%;
   margin-bottom: 1vw;
 }
@@ -887,9 +1016,9 @@ figure.figura-sec {
 @media (min-width: 390px) and (max-width: 1200px) {
 
   .topo {
-    height: 100px;
+    height: 10vw;
     min-height: 0;
-    max-height: 100px;
+    max-height: 15vw;
     padding: 0.1vw 0.1vw;
     margin-bottom: 0;
   }
@@ -907,36 +1036,37 @@ figure.figura-sec {
   .topo-texto h3 {
     margin: 1px;
     padding: 1px;
-    font-size: 2vw;
-    line-height: 1.05;
+    font-size: 2.2vw;
+    line-height: 1.2;
   }
 
   .topo-logo img {
     width: 10vw;
-    max-width: 120px;
+    max-width: 12vw;
     height: auto;
   }
 
   .card-operacional {
-    min-height: 6vw;
+    max-height: 3vw;
     height: auto;
 
-    padding: 2vw 1.5vw;
-
-    border-radius: 3vw;
-    border-left: 1vw solid var(--cor-azul-600);
+    padding: 1.5vw 1.5vw;
+    border-left: 1vw solid var(--cor-azul-400);
   }
 
   .valor-card {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
 
   .titulo-card {
-    font-size: 2.2vw;
+    font-size: 2vw;
   }
 
   .mapa-box-main h3 {
     font-size: calc(0.7rem + 0.3vw);
+  }
+  .painel-previsao h3 {
+    font-size: calc(0.8rem + 1.5vw);
   }
 
   figure.fig-tsm-main {
@@ -947,7 +1077,7 @@ figure.figura-sec {
   }
 
   .fig-tsm-main figcaption {
-    font-size: calc(0.5rem + 0.04vw);
+    font-size: calc(0.8rem + 0.4vw);
     margin: 0 0 0.2vw;
   }
 
@@ -997,7 +1127,7 @@ figure.figura-sec {
 
   .figura-sec figcaption {
     width: 100%;
-    font-size: calc(0.25rem + 0.45vw);
+    font-size: calc(0.25rem + 0.75vw);
     margin-bottom: 0.5vw;
   }
 
