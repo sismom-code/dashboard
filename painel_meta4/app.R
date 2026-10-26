@@ -168,43 +168,42 @@ function pararAnimacao(){
 const framesTri = [
 
   {
-    periodo: 'SON/2026',
-    tsm:      'figs/IC082026/IC082026_aTSM_sazonal_SON_2026.png',
-    prec:     'figs/IC082026/IC082026_aprec_sazonal_SON.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_sazonal_SON.png',
-    temp:     'figs/IC082026/IC082026_aT2m_sazonal_SON_2026.png'
-  },
-
-  {
     periodo: 'OND/2026',
-    tsm:      'figs/IC082026/IC082026_aTSM_sazonal_OND_2026.png',
-    prec:     'figs/IC082026/IC082026_aprec_sazonal_OND.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_sazonal_OND.png',
-    temp:     'figs/IC082026/IC082026_aT2m_sazonal_OND_2026.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_OND_2026.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_OND.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_OND.png',
+    temp:     'figs/IC092026/IC092026_aT2m_sazonal_OND_2026.png'
   },
 
   {
     periodo: 'NDJ/2026-2027',
-    tsm:      'figs/IC082026/IC082026_aTSM_sazonal_NDJ_2026_2027.png',
-    prec:     'figs/IC082026/IC082026_aprec_sazonal_NDJ.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_sazonal_NDJ.png',
-    temp:     'figs/IC082026/IC082026_aT2m_sazonal_NDJ_2026_2027.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_NDJ_2026_2027.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_NDJ.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_NDJ.png',
+    temp:     'figs/IC092026/IC092026_aT2m_sazonal_NDJ_2026_2027.png'
   },
 
   {
     periodo: 'DJF/2026-2027',
-    tsm:      'figs/IC082026/IC082026_aTSM_sazonal_DJF_2026_2027.png',
-    prec:     'figs/IC082026/IC082026_aprec_sazonal_DJF.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_sazonal_DJF.png',
-    temp:     'figs/IC082026/IC082026_aT2m_sazonal_DJF_2026_2027.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_DJF_2026_2027.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_DJF.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_DJF.png',
+    temp:     'figs/IC092026/IC092026_aT2m_sazonal_DJF_2026_2027.png'
   },
 
   {
     periodo: 'JFM/2027',
-    tsm:      'figs/IC082026/IC082026_aTSM_sazonal_JFM_2027.png',
-    prec:     'figs/IC082026/IC082026_aprec_sazonal_JFM.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_sazonal_JFM.png',
-    temp:     'figs/IC082026/IC082026_aT2m_sazonal_JFM_2027.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_JFM_2027.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_JFM.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_JFM.png',
+    temp:     'figs/IC092026/IC092026_aT2m_sazonal_JFM_2027.png'
+  },
+  {
+    periodo: 'FMA/2027',
+    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_FMA_2027.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_FMA.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_FMA.png',
+    temp:     'figs/IC092026/IC092026_aT2m_sazonal_FMA_2027.png'
   },
 
 ];
@@ -375,7 +374,7 @@ nav_panel(
       tags$img(
         id = "img_prec",
         class = "img-zoom",
-        src = "figs/IC082026/IC082026_aprec_mensal_202609.png"
+        src = "figs/IC092026/IC092026_aprec_mensal_202610.png"
       )
     ),
 
@@ -399,7 +398,7 @@ nav_panel(
       tags$img(
         id = "img_temp",
         class = "img-zoom",
-        src = "figs/IC082026/IC082026_aT2m_mensal_202609.png"
+        src = "figs/IC092026/IC092026_aT2m_mensal_202610.png"
       )
     )
   ),
@@ -503,7 +502,7 @@ div(
       tags$img(
         id = "img_prec_tri",
         class = "img-zoom",
-        src = "figs/IC082026/IC082026_aprec_sazonal_SON.png"
+        src = "figs/IC092026/IC092026_aprec_sazonal_OND.png"
       )
     ),
 
@@ -515,7 +514,7 @@ div(
       tags$img(
         id = "img_precperc_tri",
         class = "img-zoom",
-        src = "figs/IC082026/IC082026_aprec_porcentagem_sazonal_SON.png"
+        src = "figs/IC092026/IC092026_aprec_porcentagem_sazonal_OND.png"
       )
     ),
 
@@ -527,7 +526,7 @@ div(
       tags$img(
         id = "img_temp_tri",
         class = "img-zoom",
-        src = "figs/IC082026/IC082026_aT2m_sazonal_SON_2026.png"
+        src = "figs/IC092026/IC092026_aT2m_sazonal_OND_2026.png"
       )
     )
   ),
