@@ -343,7 +343,7 @@ nav_panel(
             alt = "Anomalia da temperatura da superfície do mar"
           )),
         br(),
-      div(class="text-font","Fonte: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstanim.shtml. Acessado: 15/agosto/2026"),
+      div(class="text-font","Fonte: https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_update/sstanim.shtml. Acessado: 26/outubro/2026"),
       ),
 
   div(
