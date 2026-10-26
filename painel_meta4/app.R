@@ -462,11 +462,11 @@ div(
   # Linha 3: meses
   div(
     class = "labels-meses",
-    span("Set"),
     span("Out"),
     span("Nov"),
     span("Dez"),
-    span("Jan")
+    span("Jan"),
+    span("Fev")    
   )
 )
 ),
