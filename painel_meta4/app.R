@@ -53,51 +53,51 @@ ui <- page_navbar(
 
   const frames = [
   {
-    mes: 'Setembro/2026',
-    tsm:      'figs/IC082026/IC082026_aTSM_mensal_202609.png',
-    prec:     'figs/IC082026/IC082026_aprec_mensal_202609.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_mensal_202609.png',
-    temp:     'figs/IC082026/IC082026_aT2m_mensal_202609.png'
-  },
-
-  {
     mes: 'Outubro/2026',
-    tsm:      'figs/IC082026/IC082026_aTSM_mensal_202610.png',
-    prec:     'figs/IC082026/IC082026_aprec_mensal_202610.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_mensal_202610.png',
-    temp:     'figs/IC082026/IC082026_aT2m_mensal_202610.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202610.png',
+    prec:     'figs/IC092026/IC092026_aprec_mensal_202610.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202610.png',
+    temp:     'figs/IC092026/IC092026_aT2m_mensal_202610.png'
   },
 
   {
     mes: 'Novembro/2026',
-    tsm:      'figs/IC082026/IC082026_aTSM_mensal_202611.png',
-    prec:     'figs/IC082026/IC082026_aprec_mensal_202611.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_mensal_202611.png',
-    temp:     'figs/IC082026/IC082026_aT2m_mensal_202611.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202611.png',
+    prec:     'figs/IC092026/IC092026_aprec_mensal_202611.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202611.png',
+    temp:     'figs/IC092026/IC092026_aT2m_mensal_202611.png'
   },
 
   {
     mes: 'Dezembro/2026',
-    tsm:      'figs/IC082026/IC082026_aTSM_mensal_202612.png',
-    prec:     'figs/IC082026/IC082026_aprec_mensal_202612.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_mensal_202612.png',
-    temp:     'figs/IC082026/IC082026_aT2m_mensal_202612.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202612.png',
+    prec:     'figs/IC092026/IC092026_aprec_mensal_202612.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202612.png',
+    temp:     'figs/IC092026/IC092026_aT2m_mensal_202612.png'
   },
 
   {
     mes: 'Janeiro/2027',
-    tsm:      'figs/IC082026/IC082026_aTSM_mensal_202701.png',
-    prec:     'figs/IC082026/IC082026_aprec_mensal_202701.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_mensal_202701.png',
-    temp:     'figs/IC082026/IC082026_aT2m_mensal_202701.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202701.png',
+    prec:     'figs/IC092026/IC092026_aprec_mensal_202701.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202701.png',
+    temp:     'figs/IC092026/IC092026_aT2m_mensal_202701.png'
   },
 
   {
     mes: 'Fevereiro/2027',
-    tsm:      'figs/IC082026/IC082026_aTSM_mensal_202702.png',
-    prec:     'figs/IC082026/IC082026_aprec_mensal_202702.png',
-    precperc: 'figs/IC082026/IC082026_aprec_porcentagem_mensal_202702.png',
-    temp:     'figs/IC082026/IC082026_aT2m_mensal_202702.png'
+    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202702.png',
+    prec:     'figs/IC092026/IC092026_aprec_mensal_202702.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202702.png',
+    temp:     'figs/IC092026/IC092026_aT2m_mensal_202702.png'
+  },
+
+  {
+    mes: 'Março/2027',
+    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202703.png',
+    prec:     'figs/IC092026/IC092026_aprec_mensal_202703.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202703.png',
+    temp:     'figs/IC092026/IC092026_aT2m_mensal_202703.png'
   }
 
 ];
