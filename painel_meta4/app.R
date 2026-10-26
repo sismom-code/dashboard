@@ -362,7 +362,7 @@ nav_panel(
       tags$img(
         id = "img_tsm",
         class = "img-zoom",
-        src = "figs/IC082026/IC082026_aTSM_mensal_202609.png"
+        src = "figs/IC092026/IC092026_aTSM_mensal_202610.png"
       )
     ),
 
@@ -386,7 +386,7 @@ nav_panel(
       tags$img(
         id = "img_precperc",
         class = "img-zoom",
-        src = "figs/IC082026/IC082026_aprec_porcentagem_mensal_202609.png"
+        src = "figs/IC092026/IC092026_aprec_porcentagem_mensal_202610.png"
       )
     ),
 
@@ -465,7 +465,8 @@ div(
     span("Nov"),
     span("Dez"),
     span("Jan"),
-    span("Fev")    
+    span("Fev"),
+    span("Mar")       
   )
 )
 ),
@@ -490,7 +491,7 @@ div(
       tags$img(
         id = "img_tsm_tri",
         class = "img-zoom",
-        src = "figs/IC082026/IC082026_aTSM_sazonal_SON_2026.png"
+        src = "figs/IC092026/IC092026_aTSM_sazonal_OND_2026.png"
       )
     ),
 
@@ -590,7 +591,8 @@ div(
       span("NDJ"),
       span("DJF"),
       span("JFM"),
-      span("FMA")
+      span("FMA"),
+      span("MAM")
     )
   )
 ))),
