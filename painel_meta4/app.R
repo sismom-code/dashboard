@@ -178,15 +178,15 @@ const framesTri = [
   {
     periodo: 'NDJ/2026-2027',
     tsm:      'figs/IC092026/IC092026_aTSM_sazonal_NDJ_2026_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_NDJ_2027.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_NDJ_2026.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_NDJ_2026_2027.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_NDJ_2026_2027.png',
     temp:     'figs/IC092026/IC092026_aT2m_sazonal_NDJ_2026_2027.png'
   },
 
   {
     periodo: 'DJF/2026-2027',
     tsm:      'figs/IC092026/IC092026_aTSM_sazonal_DJF_2026_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_DJF_2027.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_DJF_2026_2027.png',
     precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_DJF_2026_2027.png',
     temp:     'figs/IC092026/IC092026_aT2m_sazonal_DJF_2026_2027.png'
   },
