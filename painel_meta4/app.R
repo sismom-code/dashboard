@@ -170,39 +170,39 @@ const framesTri = [
   {
     periodo: 'OND/2026',
     tsm:      'figs/IC092026/IC092026_aTSM_sazonal_OND_2026.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_OND.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_OND.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_OND_2026.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_OND_2026.png',
     temp:     'figs/IC092026/IC092026_aT2m_sazonal_OND_2026.png'
   },
 
   {
     periodo: 'NDJ/2026-2027',
     tsm:      'figs/IC092026/IC092026_aTSM_sazonal_NDJ_2026_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_NDJ.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_NDJ.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_NDJ_2027.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_NDJ_2026.png',
     temp:     'figs/IC092026/IC092026_aT2m_sazonal_NDJ_2026_2027.png'
   },
 
   {
     periodo: 'DJF/2026-2027',
     tsm:      'figs/IC092026/IC092026_aTSM_sazonal_DJF_2026_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_DJF.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_DJF.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_DJF_2027.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_DJF_2026_2027.png',
     temp:     'figs/IC092026/IC092026_aT2m_sazonal_DJF_2026_2027.png'
   },
 
   {
     periodo: 'JFM/2027',
     tsm:      'figs/IC092026/IC092026_aTSM_sazonal_JFM_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_JFM.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_JFM.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_JFM_2027.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_JFM_2027.png',
     temp:     'figs/IC092026/IC092026_aT2m_sazonal_JFM_2027.png'
   },
   {
     periodo: 'FMA/2027',
     tsm:      'figs/IC092026/IC092026_aTSM_sazonal_FMA_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_FMA.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_FMA.png',
+    prec:     'figs/IC092026/IC092026_aprec_sazonal_FMA_2027.png',
+    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_FMA_2027.png',
     temp:     'figs/IC092026/IC092026_aT2m_sazonal_FMA_2027.png'
   },
 
