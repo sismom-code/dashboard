@@ -311,13 +311,13 @@ nav_panel(
         div(
           class = "card-operacional",
           div(class = "titulo-card", "Rodada"),
-          div(class = "valor-card", "Ago2026")
+          div(class = "valor-card", "Set2026")
         ),
 
         div(
           class = "card-operacional",
           div(class = "titulo-card", "Período"),
-          div(class = "valor-card", "Set/2026 a Fev/2027")
+          div(class = "valor-card", "Out/2026 a Mar/2027")
         )
       ),
 
@@ -349,7 +349,7 @@ nav_panel(
   div(
   class = "painel-previsao",
     h3(id = "tituloMes",
-      "Previsão Mensal BESM - Setembro/2026"
+      "Previsão Mensal BESM - Outubro/2026"
       ),
 
   div(
@@ -477,7 +477,7 @@ div(
 
   h3(
     id = "tituloTri",
-    "Previsão Trimestral BESM - SON/2026"
+    "Previsão Trimestral BESM - OND/2026"
   ),
 
   div(
@@ -587,11 +587,11 @@ div(
 
     div(
       class = "labels-meses",
-      span("SON"),
       span("OND"),
       span("NDJ"),
       span("DJF"),
-      span("JFM")
+      span("JFM"),
+      span("FMA")
     )
   )
 ))),
