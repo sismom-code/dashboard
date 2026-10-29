@@ -84,7 +84,6 @@ ui <- page_navbar(
     mes: 'Março/2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202703.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202703.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202703.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202703.png'
   },
 
@@ -111,7 +110,6 @@ function atualizarFrame(){
 
   $('#img_tsm').attr('src', f.tsm);
   $('#img_prec').attr('src', f.prec);
-  $('#img_precperc').attr('src', f.precperc);
   $('#img_temp').attr('src', f.temp);
 
   $('#sliderMes').val(frameAtual);
@@ -378,18 +376,6 @@ nav_panel(
     tags$figure(
       class = "figura-mensal figura-sec",
       tags$figcaption(
-        "Anomalia percentual de precipitação (%)"
-      ),
-      tags$img(
-        id = "img_precperc",
-        class = "img-zoom",
-        src = "figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202611.png"
-      )
-    ),
-
-    tags$figure(
-      class = "figura-mensal figura-sec",
-      tags$figcaption(
         "Anomalia da temperatura a 2 m (°C)"
       ),
       tags$img(
@@ -499,18 +485,6 @@ div(
       ),
       tags$img(
         id = "img_prec_tri",
-        class = "img-zoom",
-        src = "figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_NDJ_2026_2027.png"
-      )
-    ),
-
-    tags$figure(
-      class = "figura-mensal figura-sec",
-      tags$figcaption(
-        "Anomalia percentual de precipitação (%)"
-      ),
-      tags$img(
-        id = "img_precperc_tri",
         class = "img-zoom",
         src = "figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_NDJ_2026_2027.png"
       )
