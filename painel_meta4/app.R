@@ -56,7 +56,6 @@ ui <- page_navbar(
     mes: 'Novembro/2026',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202611.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202611.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202611.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202611.png'
   },
 
@@ -64,7 +63,6 @@ ui <- page_navbar(
     mes: 'Dezembro/2026',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202612.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202612.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202612.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202612.png'
   },
 
@@ -72,7 +70,6 @@ ui <- page_navbar(
     mes: 'Janeiro/2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202701.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202701.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202701.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202701.png'
   },
 
@@ -80,7 +77,6 @@ ui <- page_navbar(
     mes: 'Fevereiro/2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202702.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202702.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202702.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202702.png'
   },
 
@@ -96,7 +92,6 @@ ui <- page_navbar(
     mes: 'Abril/2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202704.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202704.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202704.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202704.png'
   }
 
@@ -171,7 +166,6 @@ const framesTri = [
     periodo: 'NDJ/2026-2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_NDJ_2026_2027.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_NDJ_2026_2027.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_NDJ_2026_2027.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_NDJ_2026_2027.png'
   },
 
@@ -179,7 +173,6 @@ const framesTri = [
     periodo: 'DJF/2026-2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_DJF_2026_2027.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_DJF_2026_2027.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_DJF_2026_2027.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_DJF_2026_2027.png'
   },
 
@@ -187,14 +180,12 @@ const framesTri = [
     periodo: 'JFM/2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_JFM_2027.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_JFM_2027.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_JFM_2027.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_JFM_2027.png'
   },
   {
     periodo: 'FMA/2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_FMA_2027.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_FMA_2027.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_FMA_2027.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_FMA_2027.png'
   },
 
@@ -202,7 +193,6 @@ const framesTri = [
     periodo: 'MAM/2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_MAM_2027.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_MAM_2027.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_MAM_2027.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_MAM_2027.png'
   },
 
@@ -210,7 +200,6 @@ const framesTri = [
     periodo: 'MAM/2027',
     tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_AMJ_2027.png',
     prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_AMJ_2027.png',
-    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_AMJ_2027.png',
     temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_AMJ_2027.png'
   },
 
