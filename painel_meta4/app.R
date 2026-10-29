@@ -53,51 +53,51 @@ ui <- page_navbar(
 
   const frames = [
   {
-    mes: 'Outubro/2026',
-    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202610.png',
-    prec:     'figs/IC092026/IC092026_aprec_mensal_202610.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202610.png',
-    temp:     'figs/IC092026/IC092026_aT2m_mensal_202610.png'
-  },
-
-  {
     mes: 'Novembro/2026',
-    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202611.png',
-    prec:     'figs/IC092026/IC092026_aprec_mensal_202611.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202611.png',
-    temp:     'figs/IC092026/IC092026_aT2m_mensal_202611.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202611.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202611.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202611.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202611.png'
   },
 
   {
     mes: 'Dezembro/2026',
-    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202612.png',
-    prec:     'figs/IC092026/IC092026_aprec_mensal_202612.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202612.png',
-    temp:     'figs/IC092026/IC092026_aT2m_mensal_202612.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202612.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202612.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202612.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202612.png'
   },
 
   {
     mes: 'Janeiro/2027',
-    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202701.png',
-    prec:     'figs/IC092026/IC092026_aprec_mensal_202701.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202701.png',
-    temp:     'figs/IC092026/IC092026_aT2m_mensal_202701.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202701.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202701.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202701.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202701.png'
   },
 
   {
     mes: 'Fevereiro/2027',
-    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202702.png',
-    prec:     'figs/IC092026/IC092026_aprec_mensal_202702.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202702.png',
-    temp:     'figs/IC092026/IC092026_aT2m_mensal_202702.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202702.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202702.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202702.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202702.png'
   },
 
   {
     mes: 'Março/2027',
-    tsm:      'figs/IC092026/IC092026_aTSM_mensal_202703.png',
-    prec:     'figs/IC092026/IC092026_aprec_mensal_202703.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_mensal_202703.png',
-    temp:     'figs/IC092026/IC092026_aT2m_mensal_202703.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202703.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202703.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202703.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202703.png'
+  },
+
+  {
+    mes: 'Abril/2027',
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202704.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202704.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202704.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202704.png'
   }
 
 ];
@@ -168,42 +168,50 @@ function pararAnimacao(){
 const framesTri = [
 
   {
-    periodo: 'OND/2026',
-    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_OND_2026.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_OND_2026.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_OND_2026.png',
-    temp:     'figs/IC092026/IC092026_aT2m_sazonal_OND_2026.png'
-  },
-
-  {
     periodo: 'NDJ/2026-2027',
-    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_NDJ_2026_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_NDJ_2026_2027.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_NDJ_2026_2027.png',
-    temp:     'figs/IC092026/IC092026_aT2m_sazonal_NDJ_2026_2027.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_NDJ_2026_2027.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_NDJ_2026_2027.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_NDJ_2026_2027.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_NDJ_2026_2027.png'
   },
 
   {
     periodo: 'DJF/2026-2027',
-    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_DJF_2026_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_DJF_2026_2027.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_DJF_2026_2027.png',
-    temp:     'figs/IC092026/IC092026_aT2m_sazonal_DJF_2026_2027.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_DJF_2026_2027.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_DJF_2026_2027.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_DJF_2026_2027.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_DJF_2026_2027.png'
   },
 
   {
     periodo: 'JFM/2027',
-    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_JFM_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_JFM_2027.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_JFM_2027.png',
-    temp:     'figs/IC092026/IC092026_aT2m_sazonal_JFM_2027.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_JFM_2027.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_JFM_2027.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_JFM_2027.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_JFM_2027.png'
   },
   {
     periodo: 'FMA/2027',
-    tsm:      'figs/IC092026/IC092026_aTSM_sazonal_FMA_2027.png',
-    prec:     'figs/IC092026/IC092026_aprec_sazonal_FMA_2027.png',
-    precperc: 'figs/IC092026/IC092026_aprec_porcentagem_sazonal_FMA_2027.png',
-    temp:     'figs/IC092026/IC092026_aT2m_sazonal_FMA_2027.png'
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_FMA_2027.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_FMA_2027.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_FMA_2027.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_FMA_2027.png'
+  },
+
+    {
+    periodo: 'MAM/2027',
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_MAM_2027.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_MAM_2027.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_MAM_2027.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_MAM_2027.png'
+  },
+
+    {
+    periodo: 'MAM/2027',
+    tsm:      'figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_AMJ_2027.png',
+    prec:     'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_AMJ_2027.png',
+    precperc: 'figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_sazonal_AMJ_2027.png',
+    temp:     'figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_AMJ_2027.png'
   },
 
 ];
@@ -310,13 +318,13 @@ nav_panel(
         div(
           class = "card-operacional",
           div(class = "titulo-card", "Rodada"),
-          div(class = "valor-card", "Set2026")
+          div(class = "valor-card", "Out2026")
         ),
 
         div(
           class = "card-operacional",
           div(class = "titulo-card", "Período"),
-          div(class = "valor-card", "Out/2026 a Mar/2027")
+          div(class = "valor-card", "Nov/2026 a Abr/2027")
         )
       ),
 
@@ -348,7 +356,7 @@ nav_panel(
   div(
   class = "painel-previsao",
     h3(id = "tituloMes",
-      "Previsão Mensal BESM - Outubro/2026"
+      "Previsão Mensal BESM - Novembro/2026"
       ),
 
   div(
@@ -362,7 +370,7 @@ nav_panel(
       tags$img(
         id = "img_tsm",
         class = "img-zoom",
-        src = "figs/IC092026/IC092026_aTSM_mensal_202610.png"
+        src = "figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_mensal_202611.png"
       )
     ),
 
@@ -374,7 +382,7 @@ nav_panel(
       tags$img(
         id = "img_prec",
         class = "img-zoom",
-        src = "figs/IC092026/IC092026_aprec_mensal_202610.png"
+        src = "figs/IC102026/figuras_anomalia_prec/IC102026_aprec_mensal_202611.png"
       )
     ),
 
@@ -386,7 +394,7 @@ nav_panel(
       tags$img(
         id = "img_precperc",
         class = "img-zoom",
-        src = "figs/IC092026/IC092026_aprec_porcentagem_mensal_202610.png"
+        src = "figs/IC102026/figuras_anomalia_prec/IC102026_aprec_porcentagem_mensal_202611.png"
       )
     ),
 
@@ -398,7 +406,7 @@ nav_panel(
       tags$img(
         id = "img_temp",
         class = "img-zoom",
-        src = "figs/IC092026/IC092026_aT2m_mensal_202610.png"
+        src = "figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_mensal_202611.png"
       )
     )
   ),
@@ -461,12 +469,12 @@ div(
   # Linha 3: meses
   div(
     class = "labels-meses",
-    span("Out"),
     span("Nov"),
     span("Dez"),
     span("Jan"),
     span("Fev"),
-    span("Mar")       
+    span("Mar"),
+    span("Abr"),       
   )
 )
 ),
@@ -477,7 +485,7 @@ div(
 
   h3(
     id = "tituloTri",
-    "Previsão Trimestral BESM - OND/2026"
+    "Previsão Trimestral BESM - NDJ/2026 - 2027"
   ),
 
   div(
@@ -491,7 +499,7 @@ div(
       tags$img(
         id = "img_tsm_tri",
         class = "img-zoom",
-        src = "figs/IC092026/IC092026_aTSM_sazonal_OND_2026.png"
+        src = "figs/IC102026/figuras_anomalia_tsm/IC102026_aTSM_sazonal_NDJ_2026_2027.png"
       )
     ),
 
@@ -503,7 +511,7 @@ div(
       tags$img(
         id = "img_prec_tri",
         class = "img-zoom",
-        src = "figs/IC092026/IC092026_aprec_sazonal_OND_2026.png"
+        src = "figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_NDJ_2026_2027.png"
       )
     ),
 
@@ -515,7 +523,7 @@ div(
       tags$img(
         id = "img_precperc_tri",
         class = "img-zoom",
-        src = "figs/IC092026/IC092026_aprec_sazonal_OND_2026.png"
+        src = "figs/IC102026/figuras_anomalia_prec/IC102026_aprec_sazonal_NDJ_2026_2027.png"
       )
     ),
 
@@ -527,7 +535,7 @@ div(
       tags$img(
         id = "img_temp_tri",
         class = "img-zoom",
-        src = "figs/IC092026/IC092026_aT2m_sazonal_OND_2026.png"
+        src = "figs/IC102026/figuras_anomalia_t2m/IC102026_aT2m_sazonal_NDJ_2026_2027.png"
       )
     )
   ),
@@ -587,12 +595,12 @@ div(
 
     div(
       class = "labels-meses",
-      span("OND"),
       span("NDJ"),
       span("DJF"),
       span("JFM"),
       span("FMA"),
-      span("MAM")
+      span("MAM"),
+      span("AMJ")
     )
   )
 ))),
